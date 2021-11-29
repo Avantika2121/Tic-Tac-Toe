@@ -5,3 +5,5 @@ As a user, I should not be able to click the same square twice.
 As a user, I should not be able to continue playing once I win, lose.
 As a user, I should be able to play the game again without refreshing the page
 As a user, my score should increase or decrease by 1 point based on winning and losing a game.
+As a user, a click on game board should have a click sound.
+As a user, there should be hover effect when hovering over the game board or play again button.
