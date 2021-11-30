@@ -35,4 +35,4 @@ I think i have been able to keep it DRY and logic as simple as possible for me.
   6. Then we call switchTurn() function to switch from player 1 to player 2 and vice versa. The particular space in that case space.played(attribute) is made true.
   8. Then conditional statements later to check the values stored within arrays in rows/columns/diagonals if its all x's or o's for winning combinations.
   9. Once its true score counter increases and its displays message the player that has won.
-  10. 
+  
