@@ -26,6 +26,9 @@ For coding i used JavaScript, JQuery here and there and HTML/CSS for webpage and
 
 I think i have been able to keep it DRY and logic as simple as possible for me.
 
+![image](https://user-images.githubusercontent.com/94148009/144143772-a9de50b2-4636-4095-a506-1249905a5aa3.png)
+
+
 
   **THE LOGIC BEHIND THE GAME AND THE STEPS I COMPLETED** 
   
