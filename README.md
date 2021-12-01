@@ -14,9 +14,11 @@ As a user, I should be able to play the game again without refreshing the page
 
 As a user, my score should increase by 1 point based on winning a game.
 
-As a user, a click on game board should have a click sound.
+**BONUS**
 
-As a user, there should be hover effect when hovering over the game board or play again button.
+As a user, a click on game board should have a click and winning sounds.
+
+As a user, there should be hover effect(color and border transition etc) when hovering over the game board or play again button.
 
 Wireframing link - https://assets.adobe.com/public/a3d4042b-a538-4cfc-42ea-33b0636ab46e
 
