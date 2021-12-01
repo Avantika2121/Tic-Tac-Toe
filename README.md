@@ -24,9 +24,14 @@ Wireframing link - https://assets.adobe.com/public/a3d4042b-a538-4cfc-42ea-33b06
 
 My favorite function would be for switchTurns() that i used for player to take turns. But in general logic of this game is more of value to me.
 
+function switchTurns(one, two) {
+one.isTurn = true;
+two.isTurn = false;
+}
+
 For coding i used JavaScript, JQuery here and there and HTML/CSS for webpage and designing.
 
-I think i have been able to keep it DRY and logic as simple as possible for me.
+I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simple possible with easy flow of code.
 
 ![image](https://user-images.githubusercontent.com/94148009/144143772-a9de50b2-4636-4095-a506-1249905a5aa3.png)
 
