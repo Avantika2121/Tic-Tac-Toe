@@ -14,6 +14,8 @@ As a user, I should be able to play the game again by clicking "Play Again" butt
 
 As a user, my score should increase by 1 point based on winning a game.
 
+Link to the Game: https://avantika2121.github.io/Tic-Tac-Toe-game/
+
 
 **BONUS**
 
