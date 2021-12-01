@@ -247,6 +247,8 @@ if(gameBoard[0][0] === "x" && gameBoard[0][1] === "x" && gameBoard[0][2] === "x"
   // $('.header').text('Player 1 Wins!');
   // $('.header').css('color', 'red');
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
