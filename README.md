@@ -10,7 +10,7 @@ As a user, I should not be able to click the same square twice.
 
 As a user, I should not be able to continue playing once I win or lose.
 
-As a user, I should be able to play the game again by clicking "Play Again" button and without refreshing the page.
+As a user, I should be able to play the game again by clicking "Play Again" button and without needing to refresh the page.
 
 As a user, my score should increase by 1 point based on winning a game.
 
