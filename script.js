@@ -257,6 +257,8 @@ if(gameBoard[0][0] === "x" && gameBoard[0][1] === "x" && gameBoard[0][2] === "x"
 // middle row s
 else if (gameBoard[1][0] === "x" && gameBoard[1][1] === "x" && gameBoard[1][2] === "x") {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -265,6 +267,8 @@ else if (gameBoard[1][0] === "x" && gameBoard[1][1] === "x" && gameBoard[1][2] =
 // bottom row
 else if (gameBoard[2][0] === "x" && gameBoard[2][1] === "x" && gameBoard[2][2] === "x") {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -273,6 +277,8 @@ else if (gameBoard[2][0] === "x" && gameBoard[2][1] === "x" && gameBoard[2][2] =
 // first column
 else if (gameBoard[0][0] === 'x' && gameBoard[1][0] === 'x' && gameBoard[2][0] === 'x') {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -281,6 +287,8 @@ else if (gameBoard[0][0] === 'x' && gameBoard[1][0] === 'x' && gameBoard[2][0] =
 // second column
 else if (gameBoard[0][1] === 'x' && gameBoard[1][1] === 'x' && gameBoard[2][1] === 'x') {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -289,6 +297,8 @@ else if (gameBoard[0][1] === 'x' && gameBoard[1][1] === 'x' && gameBoard[2][1] =
 // third column
 else if (gameBoard[0][2] === 'x' && gameBoard[1][2] === 'x' && gameBoard[2][2] === 'x') {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -297,6 +307,8 @@ else if (gameBoard[0][2] === 'x' && gameBoard[1][2] === 'x' && gameBoard[2][2] =
 // diaganol right
 else if (gameBoard[0][0] === 'x' && gameBoard[1][1] === 'x' && gameBoard[2][2] === 'x') {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -305,6 +317,8 @@ else if (gameBoard[0][0] === 'x' && gameBoard[1][1] === 'x' && gameBoard[2][2] =
 // diaganol left
 else if (gameBoard[0][2] === 'x' && gameBoard[1][1] === 'x' && gameBoard[2][0] === 'x') {
   document.querySelector(".header").textContent = "Player 1 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', 'red');
   document.querySelector('.p1').textContent = ('Player 1: '+ p1Counter);
   p1Counter += 1;
@@ -317,6 +331,8 @@ else if (gameBoard[0][2] === 'x' && gameBoard[1][1] === 'x' && gameBoard[2][0] =
 
 if(gameBoard[0][0] === "o" && gameBoard[0][1] === "o" && gameBoard[0][2] === "o"){
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -325,6 +341,8 @@ if(gameBoard[0][0] === "o" && gameBoard[0][1] === "o" && gameBoard[0][2] === "o"
 // middle row 
 else if (gameBoard[1][0] === "o" && gameBoard[1][1] === "o" && gameBoard[1][2] === "o") {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -333,6 +351,8 @@ else if (gameBoard[1][0] === "o" && gameBoard[1][1] === "o" && gameBoard[1][2] =
 // bottom row
 else if (gameBoard[2][0] === "o" && gameBoard[2][1] === "o" && gameBoard[2][2] === "o") {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -341,6 +361,8 @@ else if (gameBoard[2][0] === "o" && gameBoard[2][1] === "o" && gameBoard[2][2] =
 // first column
 else if (gameBoard[0][0] === 'o' && gameBoard[1][0] === 'o' && gameBoard[2][0] === 'o') {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -349,6 +371,8 @@ else if (gameBoard[0][0] === 'o' && gameBoard[1][0] === 'o' && gameBoard[2][0] =
 // second column
 else if (gameBoard[0][1] === 'o' && gameBoard[1][1] === 'o' && gameBoard[2][1] === 'o') {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -357,6 +381,8 @@ else if (gameBoard[0][1] === 'o' && gameBoard[1][1] === 'o' && gameBoard[2][1] =
 // third column
 else if (gameBoard[0][2] === 'o' && gameBoard[1][2] === 'o' && gameBoard[2][2] === 'o') {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -365,6 +391,8 @@ else if (gameBoard[0][2] === 'o' && gameBoard[1][2] === 'o' && gameBoard[2][2] =
 // diaganol right
 else if (gameBoard[0][0] === 'o' && gameBoard[1][1] === 'o' && gameBoard[2][2] === 'o') {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
@@ -373,6 +401,8 @@ else if (gameBoard[0][0] === 'o' && gameBoard[1][1] === 'o' && gameBoard[2][2] =
 // diaganol left
 else if (gameBoard[0][2] === 'o' && gameBoard[1][1] === 'o' && gameBoard[2][0] === 'o') {
   document.querySelector(".header").textContent = "Player 2 Wins!";
+    let audio1 = new Audio("winMusic.wav");
+  audio1.play();
   $('.header').css('color', '#33DBFF');
   document.querySelector('.p2').textContent = ('Player 2: '+ p2Counter);
   p2Counter += 1;
