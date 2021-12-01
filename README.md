@@ -14,6 +14,7 @@ As a user, I should be able to play the game again by clicking "Play Again" butt
 
 As a user, my score should increase by 1 point based on winning a game.
 
+
 **BONUS**
 
 Inventive styling, there is hover effect(color and border transition etc) when hovering over the game board or play again button.
