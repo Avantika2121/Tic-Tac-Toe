@@ -50,6 +50,7 @@ I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simp
   1. Creating index.html with a grid consisting of 9 spaces with 9 ids representing the game grid.
   2. Creating script.js for logic and within it an array of the game basically containg 3 array elements and each array having 3 elements(values      of 1 to 9          numbers). The array would later be used to store values of 'x' or 'o' and evaluating condition of player's win ie either rows,          columns or diagonals.
   3. A function to append 'x' or 'o' at click event of event listener.
+     
      addSymbolX(space) {}
 
      addSymbolO(space) {}
