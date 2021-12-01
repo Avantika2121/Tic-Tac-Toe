@@ -4,23 +4,27 @@ As a user, I should be able to start a new tic tac toe game.
 
 As a user, I should be able to click on a square to add X first and then O, and so on.
 
-As a user, I should be shown a message after each turn for if I win or lose.
+As a user, I should be shown a message when a player wins.
 
 As a user, I should not be able to click the same square twice.
 
 As a user, I should not be able to continue playing once I win or lose.
 
-As a user, I should be able to play the game again without refreshing the page
+As a user, I should be able to play the game again by clicking "Play Again" button.
 
 As a user, my score should increase by 1 point based on winning a game.
 
 **BONUS**
 
-As a user, a click on game board should have a click and winning sounds.
+Inventive styling, there is hover effect(color and border transition etc) when hovering over the game board or play again button.
 
-As a user, there should be hover effect(color and border transition etc) when hovering over the game board or play again button.
+Keeping track of multiple game rounds.
 
-Wireframing link - https://assets.adobe.com/public/a3d4042b-a538-4cfc-42ea-33b0636ab46e
+Click and winning sounds when gameboard is clicked or player wins.
+
+
+
+**Wireframing link** - https://assets.adobe.com/public/a3d4042b-a538-4cfc-42ea-33b0636ab46e
 
 My favorite function would be for switchTurns() that i used for player to take turns. But in general logic of this game is more of value to me.
 
