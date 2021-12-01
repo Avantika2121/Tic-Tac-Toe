@@ -41,13 +41,14 @@ I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simp
 
 
   **THE LOGIC BEHIND THE GAME AND THE STEPS I COMPLETED** 
-  
-  1. Creating index.html with a grid consisting of 9 spaces with 9 ids.
-  2. Creating script.js for logic and within it an array of the game basically containg 3 array elements and each array having 3 elements(values of 1 to 9 numbers).      The array would later be used to store values of 'x' or 'o' and evaluating conditioning of player's win ie either rows, columns or diagonals.
+  _
+  1. Creating index.html with a grid consisting of 9 spaces with 9 ids representing the game grid.
+  2. Creating script.js for logic and within it an array of the game basically containg 3 array elements and each array having 3 elements(values of 1 to 9 numbers).      The array would later be used to store values of 'x' or 'o' and evaluating condition of player's win ie either rows, columns or diagonals.
   3. A function to append 'x' or 'o' as clicked by user.
   4. Creating class for space and player and then creating instances for spaces(1 to 9) and player instances, player 1 and player 2.
   5. At click on grid (event listener) it would check the target id of the click, check if the space has not been clicked. Append 'x' or 'o'. Store 'x' or 'o' based      on if its player 1 or player 2. So basically if target.id is 1, it would be Array[0].index(1).
   6. Then we call switchTurn() function to switch from player 1 to player 2 and vice versa. The particular space in that case space.played(attribute) is made true.
   8. Then conditional statements later to check the values stored within arrays in rows/columns/diagonals if its all x's or o's for winning combinations.
-  9. Once its true score counter increases and its displays message the player that has won.
+  9. Once a player wins his score counter increases by 1 and its displays message the player that has won.
   
+_
