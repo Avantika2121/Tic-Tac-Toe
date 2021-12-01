@@ -1,4 +1,4 @@
-#MVPs#
+**MVPs**
 
 As a user, I should be able to start a new tic tac toe game.
 
@@ -14,7 +14,7 @@ As a user, I should be able to play the game again without refreshing the page
 
 As a user, my score should increase by 1 point based on winning a game.
 
-##BONUS##
+**BONUS**
 
 As a user, a click on game board should have a click and winning sounds.
 
@@ -39,9 +39,9 @@ I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simp
 ![image](https://user-images.githubusercontent.com/94148009/144143772-a9de50b2-4636-4095-a506-1249905a5aa3.png)
 
 
-
-  ##THE LOGIC BEHIND THE GAME AND THE STEPS I COMPLETED##
-  *
+**
+  THE LOGIC BEHIND THE GAME AND THE STEPS I COMPLETED**
+  
   1. Creating index.html with a grid consisting of 9 spaces with 9 ids representing the game grid.
   2. Creating script.js for logic and within it an array of the game basically containg 3 array elements and each array having 3 elements(values of 1 to 9 numbers).      The array would later be used to store values of 'x' or 'o' and evaluating condition of player's win ie either rows, columns or diagonals.
   3. A function to append 'x' or 'o' as clicked by user.
@@ -50,5 +50,5 @@ I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simp
   6. Then we call switchTurn() function to switch from player 1 to player 2 and vice versa. The particular space in that case space.played(attribute) is made true.
   8. Then conditional statements later to check the values stored within arrays in rows/columns/diagonals if its all x's or o's for winning combinations.
   9. Once a player wins his score counter increases by 1 and its displays message the player that has won.
-  *
+  
 
