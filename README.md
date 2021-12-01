@@ -38,7 +38,7 @@ two.isTurn = false;
 
 For coding i used JavaScript, JQuery here and there and HTML/CSS for webpage and designing.
 
-I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simple possible with easy flow of code.
+I think i have been able to keep it DRY(Don't Repeat Yourself) and logic as simple possible with good performance and easy flow of code.
 
 ![image](https://user-images.githubusercontent.com/94148009/144143772-a9de50b2-4636-4095-a506-1249905a5aa3.png)
 
