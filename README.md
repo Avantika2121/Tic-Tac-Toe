@@ -25,8 +25,11 @@ Wireframing link - https://assets.adobe.com/public/a3d4042b-a538-4cfc-42ea-33b06
 My favorite function would be for switchTurns() that i used for player to take turns. But in general logic of this game is more of value to me.
 
 function switchTurns(one, two) {
+
 one.isTurn = true;
+
 two.isTurn = false;
+
 }
 
 For coding i used JavaScript, JQuery here and there and HTML/CSS for webpage and designing.
